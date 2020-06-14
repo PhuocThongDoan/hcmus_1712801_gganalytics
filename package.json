@@ -1,0 +1,22 @@
+{
+  "name": "zlp-demo-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@popperjs/core": "^2.4.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "1.9.1 - 3",
+    "node-modules": "^1.0.1",
+    "qrcode": "^1.4.4"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "now-build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
+  }
+}
